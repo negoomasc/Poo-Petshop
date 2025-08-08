@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import fundoFofo from './imgs/colagem-de-animal-de-estimacao-bonito-isolada.jpg';
 
 interface Cliente {
   id: number
@@ -87,7 +88,15 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App"
+    style={{
+      backgroundImage: `url(${fundoFofo})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      minHeight: '100vh',
+      padding: '2rem',
+      textAlign: 'center',
+    }}>
       <h1>🐾 Gerenciador de Clientes e Animais</h1>
 
       <div className="button-group">
