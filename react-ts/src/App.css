@@ -40,3 +40,57 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: rgb(103, 83, 83);
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.modal label {
+  display: block;
+  margin-top: 10px;
+}
+
+.modal input,
+.modal select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
